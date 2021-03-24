@@ -48,38 +48,6 @@ canvas {
     box-shadow: inset 0 0 50em 5em #000;
 }
 
-/*.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
-
-.fullscreen-bg_video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}*/
-
-/*@media (min-aspect-ratio: 16/9){
-    .fullscreen-bg_video {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio: 16/9) {
-    .fullscreen-bg_video {
-        width: auto;
-        height: 100%;
-    }
-}*/
-
-
 .window {
     background-color: rgba(16, 23, 30, 0.9);
     border: 5px solid rgba(21, 32, 43, 1);
@@ -163,54 +131,9 @@ canvas {
 
 .SF {
     color: #3e659f;
-}
-
-    
+} 
 
 .no-select {
     user-select: none;
 }
-
-
-/* ---- stats.js ---- */
-
-/*.count-particles {
-    background: #000022;
-    position: absolute;
-    top: 48px;
-    left: 0;
-    width: 80px;
-    color: #13E8E9;
-    font-size: .8em;
-    text-align: left;
-    text-indent: 4px;
-    line-height: 14px;
-    padding-bottom: 2px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-}
-
-.js-count-particles {
-    font-size: 1.1em;
-}
-
-#stats,
-.count-particles {
-    -webkit-user-select: none;
-    margin-top: 5px;
-    margin-left: 5px;
-}
-
-#stats {
-    border-radius: 3px 3px 0 0;
-    overflow: hidden;
-}
-
-.count-particles {
-    border-radius: 0 0 3px 3px;
-}*/
-
-
-/* ---- particles.js container ---- */
-
 
