@@ -1,0 +1,216 @@
+
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #111;
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 32, 43, 1);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 50em 5em #000;
+}
+
+/*.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg_video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+/*@media (min-aspect-ratio: 16/9){
+    .fullscreen-bg_video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg_video {
+        width: auto;
+        height: 100%;
+    }
+}*/
+
+
+.window {
+    background-color: rgba(16, 23, 30, 0.9);
+    border: 5px solid rgba(21, 32, 43, 1);
+    border-radius: 32px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
+}
+.hello {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    margin: -100px 0 0 -200px;
+}
+
+
+
+    .window .left {
+        position:absolute;
+        left: 10%;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+
+        .window .left .link {
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+.selectable-left {
+    transition: 0.1s all;
+}
+
+    .selectable-left:hover {
+        transform: scale(1.2) translateX(10%);
+    }
+
+.left p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+        .window .right {
+            position: absolute;
+            left: 90%;
+            top: 50%;
+            transform: translate(-100%, -50%);
+        }
+
+.right p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#nickname{
+    font-family: Arial;
+    color: #ffffff;
+    text-align:center;
+    font-weight:400;
+    font-size: 20px;
+}
+
+#avatar {
+    border-radius: 50%;
+    border: 5px solid #15202b;
+}
+
+.twitter {
+    color: #76a9ea;
+}
+
+.twitch {
+    color: #d877ff;
+}
+
+.VK {
+    color: #3e659f;
+}
+
+.SF {
+    color: #3e659f;
+}
+
+    
+
+.no-select {
+    user-select: none;
+}
+
+
+/* ---- stats.js ---- */
+
+/*.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}*/
+
+
+/* ---- particles.js container ---- */
+
+
